@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Netikz Call Blocker</string>
+    <string name="contact_select">Select Contact</string>
+    <string name="or">Or</string>
+    <string name="credit">Developed By CyberNetikz</string>
+    <string name="add_block">Add New</string>
+    <string name="suggest_phone">Enter Phone Number</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="menu_settings">Settings</string>
+    <string name="call_log">Block Call Log</string>
+    <string name="block_call">Block Call</string>
+    <string name="block_text">Block Text</string>
+    <string name="list_block">Block List</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete All</string>
+    <string name="close">Close</string>
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="bottombgcolor">#203201</color>
+    <color name="backbutton">#673c07</color>
+    <color name="grey">#797979</color>
+    <color name="fg">#798174</color>
+
+</resources>

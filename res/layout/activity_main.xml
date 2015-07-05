@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bodybg" >
+    <LinearLayout android:id="@+id/bottom_menu"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:background="@color/bottombgcolor"         
+        android:orientation="vertical" android:layout_alignParentBottom="true">		 
+        <TextView
+            android:id="@+id/homeBottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:onClick="onClick" 
+            android:text="@string/credit"
+            android:textColor="@color/fg"               
+            android:clickable="true"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/top_menu"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"   
+        android:padding="10dp"      
+        android:layout_alignParentTop="true" android:background="@drawable/titlebg" >
+	    <ImageView
+	        android:gravity="center|center_horizontal"
+	        android:layout_gravity="center"
+	        android:id="@+id/titleimageView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/header_logo2"
+	        android:contentDescription="@string/app_name"
+	         />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/sub_content_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/top_menu"
+        android:layout_above="@id/bottom_menu"
+        android:orientation="vertical" >
+	    <GridView
+	        android:id="@+id/menuIcon"
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent"
+	         android:numColumns="2"
+	        android:stretchMode="columnWidth"
+	        android:gravity="center"
+	         >
+	    </GridView>  
+    </LinearLayout>
+</RelativeLayout>
